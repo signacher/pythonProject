@@ -1,8 +1,8 @@
 from selenium import webdriver
 import time
 from selenium.webdriver.common.by import By
-login = 'at@pryaniky.ru'
-password = 'qw123456'
+login = login
+password = password
 driver = webdriver.Chrome(executable_path='C:\\Users\\Signacher\\PycharmProjects\\test\\chromedriver.exe')
 driver.get ('https://ideasperi.app.pryaniky.com/')
 driver.maximize_window()
